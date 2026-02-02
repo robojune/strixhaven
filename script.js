@@ -17,7 +17,7 @@ async function loadJSON(path) {
 /* Past Adventures */
 
 async function renderAdventures() {
-  const adventures = await loadJSON("data/adventures.json");
+  const adventures = await loadJSON("adventures.json");
 
   content.innerHTML = `
     <section>
@@ -50,7 +50,7 @@ async function renderAdventures() {
 /* Heroes of Strixhaven */
 
 async function renderHeroes() {
-  const heroes = await loadJSON("data/heroes.json");
+  const heroes = await loadJSON("heroes.json");
 
   content.innerHTML = `
     <section>
@@ -91,7 +91,7 @@ async function renderHeroes() {
 /* Monthly Newsletter */
 
 async function renderNewsletters() {
-  const newsletters = await loadJSON("data/newsletters.json");
+  const newsletters = await loadJSON("newsletter.json");
   const first = newsletters[0];
 
   content.innerHTML = `
@@ -182,7 +182,7 @@ function renderNewsletterContent(issue) {
 /* Gossip Column */
 
 async function renderGossip() {
-  const gossip = await loadJSON("data/gossip.json");
+  const gossip = await loadJSON("gossip.json");
 
   content.innerHTML = `
     <section>
@@ -235,3 +235,4 @@ function loadSection(section) {
       break;
   }
 }
+
