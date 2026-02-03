@@ -217,7 +217,7 @@ async function renderGossip() {
 
 /* Initial load */
 
-loadSection("adventures");
+loadSection("newsletters");
 
 function loadSection(section) {
   switch (section) {
@@ -235,5 +235,6 @@ function loadSection(section) {
       break;
   }
 }
+
 
 
