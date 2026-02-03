@@ -13,40 +13,6 @@ async function loadJSON(path) {
   const res = await fetch(path);
   return res.json();
 }
-
-/* Past Adventures */
-
-async function renderAdventures() {
-  const adventures = await loadJSON("adventures.json");
-
-  content.innerHTML = `
-    <section>
-      <div class="section-header">
-        <h2>Past Adventures</h2>
-        <p class="section-subtitle">Key arcs from the Strixhaven campaign, as chronicled by the Quandrix Quill.</p>
-      </div>
-      <div class="card-grid">
-        ${adventures
-          .map(
-            (a) => `
-          <article class="card">
-            <p class="meta-line">${a.date} • ${a.arc}</p>
-            <h3>${a.title}</h3>
-            <p>${a.summary}</p>
-            ${
-              a.details
-                ? `<details><summary>Read full account</summary><p>${a.details}</p></details>`
-                : ""
-            }
-          </article>
-        `
-          )
-          .join("")}
-      </div>
-    </section>
-  `;
-}
-
 /* Heroes of Strixhaven */
 
 async function renderHeroes() {
@@ -56,7 +22,7 @@ async function renderHeroes() {
     <section>
       <div class="section-header">
         <h2>Heroes of Strixhaven</h2>
-        <p class="section-subtitle">The students, schemers, and accidental legends shaping the Shifting Semester.</p>
+        <p class="section-subtitle">The students, schemers, and accidental legends shaping the century-old castle.</p>
       </div>
       <div class="card-grid">
         ${heroes
@@ -88,6 +54,40 @@ async function renderHeroes() {
   `;
 }
 
+/* Past Adventures */
+
+async function renderAdventures() {
+  const adventures = await loadJSON("adventures.json");
+
+  content.innerHTML = `
+    <section>
+      <div class="section-header">
+        <h2>Past Adventures</h2>
+        <p class="section-subtitle">“Adventure at Strixhaven isn’t found in distant lands—it sparks the moment a curious mind steps beyond the theorem, when magic misbehaves, and the world dares you to follow.”</p>
+      </div>
+      <div class="card-grid">
+        ${adventures
+          .map(
+            (a) => `
+          <article class="card">
+            <p class="meta-line">${a.date} • ${a.arc}</p>
+            <h3>${a.title}</h3>
+            <p>${a.summary}</p>
+            ${
+              a.details
+                ? `<details><summary>Read full account</summary><p>${a.details}</p></details>`
+                : ""
+            }
+          </article>
+        `
+          )
+          .join("")}
+      </div>
+    </section>
+  `;
+}
+
+
 /* Monthly Newsletter */
 
 async function renderNewsletters() {
@@ -98,7 +98,7 @@ async function renderNewsletters() {
     <section>
       <div class="section-header">
         <h2>Monthly Newsletter</h2>
-        <p class="section-subtitle">The Quandrix Quill editions, archived for posterity (and future exam questions).</p>
+        <p class="section-subtitle">The Quandrix Quill editions, edited by Albus Dumbledore and archived for posterity (and future exam questions).</p>
       </div>
       <div class="newsletter-layout">
         <aside class="newsletter-list">
@@ -235,4 +235,5 @@ function loadSection(section) {
       break;
   }
 }
+
 
