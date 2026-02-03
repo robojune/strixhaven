@@ -3,73 +3,74 @@
     "name": "Aragon",
     "college": "Quandrix",
     "role": "Reluctant Protagonist",
-    "bio": "Perpetually on the edge of academic disaster, Aragon juggles alchemical gains, missed exams, and suspiciously vanilla-scented 'protein' potions. Known for getting stuck in Edgemoor, celebrating his birthday in a chokehold with slugs and bats, and somehow surviving it all.",
+    "bio": "Aragon is the other half of Quandrix’s honest brute duo—a well‑meaning, physically capable student who somehow finds himself in the worst possible situations. He gets stuck in Edgemoor, wrestles slugs and bats on his birthday, misses exams due to Magical Transmitted Devices, and still manages to stumble forward with stubborn optimism. Aragon avoids trouble, but trouble does not avoid him. His alchemical “protein potions” smell suspiciously like vanilla, his crushes are obvious to everyone but him, and his attempts at self‑improvement often end in magical mishaps. Despite everything, he has a good heart and a resilience that borders on heroic.",
     "portrait": "aragon.jpg",
     "stats": {
-      "courage": 8,
-      "chaos": 10,
-      "academics": 4
+      "courage": 4,
+      "chaos": 4,
+      "academics": 9
     }
   },
   {
     "name": "Katrina",
     "college": "Quandrix",
     "role": "Overloaded Spell Scholar",
-    "bio": "Battling spell exams, a runaway frog familiar, and a complicated romantic history, Katrina is the embodiment of 'it’s complicated.' Rumors swirl about lovers lost in the woods and exes who changed more than just majors.",
+    "bio": "Battling spell exams, a runaway frog familiar, and a complicated romantic history, Katrina is the embodiment of 'it’s complicated.' A Prismari empath with a heart too big for her own good, Katrina feels everything—her emotions, your emotions, the emotions of the frog familiar who recently ran away to “start a new life.” She struggles with exams, spellcasting, and the constant distraction of being hopelessly infatuated with nearly every attractive person she meets. Her romantic entanglements are legendary, her study habits less so. Katrina’s empathy makes her powerful, but also vulnerable; she absorbs the chaos around her like a sponge. Yet beneath the flustered exterior is a student with immense potential—if she can ever focus long enough to pass her finals. Rumors swirl about lovers lost in the woods and exes who changed more than just majors.",
     "portrait": "katrina.jpg",
     "stats": {
-      "courage": 6,
+      "courage": 8,
       "chaos": 5,
-      "academics": 7
+      "academics": 2
     }
   },
   {
     "name": "Rowan",
     "college": "Quandrix",
-    "role": "Seeker of Life and Death",
-    "bio": "On the verge of uncovering the truth connecting life and death, Rowan walks the thin line between research and revelation. Their studies may redefine what it means to graduate alive.",
+    "role": "Gentle Giant Seeking Truth",
+    "bio": "On the verge of uncovering the truth connecting life and death, Rowan walks the thin line between research and revelation. Rowan is one of the honest brutes of Quandrix: strong, straightforward, and surprisingly philosophical. While others chase drama, Rowan avoids it with the same determination he applies to his studies. His current obsession—unraveling the connection between life and death—has earned him both admiration and concern. Despite his intimidating presence, Rowan is grounded, loyal, and deeply introspective. He prefers quiet libraries to loud parties, and he often finds himself dragged into chaos only because he’s trying to keep others (usually Aragon) alive. His rise in popularity is unintentional, but inevitable.",
     "portrait": "rowan.jpg",
     "stats": {
-      "courage": 7,
-      "chaos": 6,
+      "courage": 5,
+      "chaos": 4,
       "academics": 9
     }
   },
   {
     "name": "Percy",
     "college": "Quandrix",
-    "role": "Schemer-in-Residence",
-    "bio": "Seen tiptoeing near the faculty lounge with a cloak of invisibility that only works on Tuesdays, Percy is suspected in everything from exam paper heists to glitter-hexed vending machines.",
+    "role": "Schemer with a Thousand Faces",
+    "bio": "Percy is the embodiment of delightful chaos. A natural-born troublemaker, he’s been caught cheating, sneaking into faculty lounges, hexing vending machines, and launching fireworks in places where fireworks absolutely should not be. His most dangerous talent, however, is his ability to transform into anyone he likes—a gift he uses for pranks, mischief, and the occasional exam heist. His cloak of invisibility only works on Tuesdays, but that’s never stopped him. Percy is the kind of student who always has a plan, a backup plan, and a third plan that involves glitter. Professors groan when they hear his name; students cheer. He is trouble incarnate, and he loves every second of it. Seen tiptoeing near the faculty lounge with a cloak of invisibility that only works on Tuesdays, Percy is suspected in everything from exam paper heists to glitter-hexed vending machines.",
     "portrait": "percy.jpg",
     "stats": {
-      "courage": 5,
-      "chaos": 9,
-      "academics": 6
+      "courage": 10,
+      "chaos": 10,
+      "academics": 5
     }
   },
   {
     "name": "N K Michaels",
     "college": "Quandrix",
-    "role": "Unclear",
-    "bio": "Unknown",
-    "portrait": "kaelin.jpg",
+    "role": "Forbidden Alchemist",
+    "bio": "A name erased from official Strixhaven archives, N.K. Michaels exists in the uneasy space between myth and memory. Once a brilliant Quandrix prodigy, Michaels pursued 'social alchemy'—a forbidden branch of magic aimed at manipulating trust, loyalty, and interspecies harmony. His experiments crossed ethical boundaries so violently that entire sprite colonies vanished overnight. Expelled, exiled, and supposedly erased, Michaels left behind only fragments: runes etched into abandoned manuscripts, whispers of a doctrine meant to divide, and now—an iridescent vial pulsing with intent. Whether he is dead, hiding, or watching from the shadows remains unknown. What is certain is that his legacy is resurfacing, and it was never truly buried.",
+    "portrait": "michael.jpg",
     "stats": {
-      "courage": 6,
-      "chaos": 4,
-      "academics": 8
+      "courage": 0,
+      "chaos": 0,
+      "academics": 0
     }
   },
   {
     "name": "Albus Dumbledore",
     "college": "Quandrix (Editor)",
-    "role": "Editor-in-Chief of the Quandrix Quill",
-    "bio": "Chronicler of campus chaos, Albus turns rumors, research, and reckless student behavior into polished columns. If it happened at Strixhaven, it probably passed across his desk.",
-    "portrait": "albus.jpg",
+    "role": "Archivist of Brilliance",
+    "bio": "Albus is the charismatic, sharp‑minded editor‑in‑chief of the Quandrix Quill, a rising star whose intellect and magical finesse echo a young Albus Dumbledore. Gifted in arcane theory, magical history, and the subtle art of persuasion, he navigates Strixhaven’s chaos with wit and grace. Students trust him; professors respect him; troublemakers fear ending up in his next column. Though he presents himself as a calm observer, Albus has a knack for being exactly where the story breaks—sometimes because he predicted it, sometimes because he caused it. His charm is effortless, his curiosity endless, and his influence on campus undeniable.Chronicler of campus chaos, Albus turns rumors, research, and reckless student behavior into polished columns. If it happened at Strixhaven, it probably passed across his desk.",
+    "portrait": "albus.jpeg",
     "stats": {
-      "courage": 7,
+      "courage": 9,
       "chaos": 5,
       "academics": 10
     }
   }
 ]
+
 
